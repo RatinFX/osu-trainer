@@ -9,8 +9,7 @@
         "${workspaceFolder}/osu-trainer/osu-trainer.csproj",
         "/t:Build",
         "/p:Configuration=Debug",
-        "/p:Platform=AnyCPU",
-        "/p:GenerateResourceUsePreserializedResources=true"
+        "/p:Platform=AnyCPU"
       ],
       "problemMatcher": "$msCompile"
     }

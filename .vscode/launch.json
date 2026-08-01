@@ -3,8 +3,9 @@
   "configurations": [
     {
       "name": "osu-trainer",
-      "type": "coreclr",
+      "type": "clr",
       "request": "launch",
+      "preLaunchTask": "build",
       "program": "${workspaceFolder}/osu-trainer/bin/Debug/osu-trainer.exe"
     }
   ]
