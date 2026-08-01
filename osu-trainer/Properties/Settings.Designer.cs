@@ -194,9 +194,9 @@ namespace osu_trainer.Properties {
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("200")]
-        public int LockedBpmSetting {
+        public decimal LockedBpmSetting {
             get {
-                return ((int)(this["LockedBpmSetting"]));
+                return ((decimal)(this["LockedBpmSetting"]));
             }
             set {
                 this["LockedBpmSetting"] = value;

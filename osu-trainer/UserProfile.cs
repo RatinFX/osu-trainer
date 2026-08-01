@@ -27,7 +27,7 @@ namespace osu_trainer
         public bool NoSpinners = false;
 
         public bool BpmIsLocked = false;
-        public int lockedBpm = 200;
+        public decimal lockedBpm = 200M;
         public decimal BpmMultiplier = 1.0M;
 
         public UserProfile(string name)

@@ -124,91 +124,91 @@
   <data name="BpmLockCheck.CheckedImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
-        dQAAAHUB48IHZQAAAKpJREFUOE/tkasOwkAQRcFVg+iXEL4IZAOGFMNv8DmgwYAmeNBAilvOzN60KQ/R
-        1nKSI/bemTHbeyeEkOAc9/iQO5xhorHvMJDiEX9xwFTjdSj6uLUpccG1vFogNlqpQzGOvXPCgSrrhni2
-        QoxUVRBOY+esFJdYFitnoriCMIudkykusSxWzkff/gCPJd49bobt5Hbg6c92FHagE/8D8UDnX8jx5s9m
-        sBMWLz1UI+w7hoMaAAAAAElFTkSuQmCC
+        cQAAAHEBHD+AdwAAAJpJREFUOE/t0TEOAVEURmE6NYWViBVRCo3QzDYsh5qGWvTUCN0njynuvBBE6ySv
+        mXP+20ytloEGRljhXL4lhsnlfQW0sfGadWry3R3UsQjxHrPyHcL3eb69g26ItmgG18Iu+E51/Yj6ISie
+        +CL4Xu5TMAjB4Fv/NnjpMcUpyE9Jm0k6cM3NF1zSgZ/4H3gc+PkvTHDMzQekzfgGPVQj7D1tb7cAAAAA
+        SUVORK5CYII=
 </value>
   </data>
   <data name="BpmLockCheck.UncheckedImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
-        dAAAAHQBMYXlgQAAAK5JREFUOE/dkT0KwkAUhC3S+HMCLXOEFFGMaK93SCdW2mijKbz55nswZFfd4BI7
-        Bz4IM/MGkoze5ZzLYAVHeAh7XkKmWlwUpnCCZw+WzVT/FGEdlK9wgD3c5Bm16q8imAelC0wUWTaGszJj
-        ocgLswgKO9md8LZBXsj2wiyDQim7E14Ojchle9kR9A581eAByhu4B8ep2E1lA/ZOsUIKjQ3EgmT+ZODn
-        j1jBwN/o1i0iMYyfvEScWwAAAABJRU5ErkJggg==
+        cAAAAHABznhikwAAAKNJREFUOE/dkTEOgkAURClsRE8AJUegQCNGe7wDnbHSRhul4ObPfCFm+MGA0jnJ
+        JJt9M5PABoETMAPWwBF4tLbzypjPdwQsgBNQf7Cxpe+9BZQSvgIHoABucl/63ktAJKELEAqbA2fhcbfd
+        hFIJ7Hv4TnjquQUyCWQ9PAGq1onngwOD+nkA2AJ3KY+1dXIbsG/ycKwrG/CXX/lPBib/xHzCM26eIjGM
+        nwAJ+tIAAAAASUVORK5CYII=
 </value>
   </data>
   <data name="ODLockCheck.CheckedImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
-        dQAAAHUB48IHZQAAAKpJREFUOE/tkasOwkAQRcFVg+iXEL4IZAOGFMNv8DmgwYAmeNBAilvOzN60KQ/R
-        1nKSI/bemTHbeyeEkOAc9/iQO5xhorHvMJDiEX9xwFTjdSj6uLUpccG1vFogNlqpQzGOvXPCgSrrhni2
-        QoxUVRBOY+esFJdYFitnoriCMIudkykusSxWzkff/gCPJd49bobt5Hbg6c92FHagE/8D8UDnX8jx5s9m
-        sBMWLz1UI+w7hoMaAAAAAElFTkSuQmCC
+        cQAAAHEBHD+AdwAAAJpJREFUOE/t0TEOAVEURmE6NYWViBVRCo3QzDYsh5qGWvTUCN0njynuvBBE6ySv
+        mXP+20ytloEGRljhXL4lhsnlfQW0sfGadWry3R3UsQjxHrPyHcL3eb69g26ItmgG18Iu+E51/Yj6ISie
+        +CL4Xu5TMAjB4Fv/NnjpMcUpyE9Jm0k6cM3NF1zSgZ/4H3gc+PkvTHDMzQekzfgGPVQj7D1tb7cAAAAA
+        SUVORK5CYII=
 </value>
   </data>
   <data name="ODLockCheck.UncheckedImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
-        dAAAAHQBMYXlgQAAAK5JREFUOE/dkT0KwkAUhC3S+HMCLXOEFFGMaK93SCdW2mijKbz55nswZFfd4BI7
-        Bz4IM/MGkoze5ZzLYAVHeAh7XkKmWlwUpnCCZw+WzVT/FGEdlK9wgD3c5Bm16q8imAelC0wUWTaGszJj
-        ocgLswgKO9md8LZBXsj2wiyDQim7E14Ojchle9kR9A581eAByhu4B8ep2E1lA/ZOsUIKjQ3EgmT+ZODn
-        j1jBwN/o1i0iMYyfvEScWwAAAABJRU5ErkJggg==
+        cAAAAHABznhikwAAAKNJREFUOE/dkTEOgkAURClsRE8AJUegQCNGe7wDnbHSRhul4ObPfCFm+MGA0jnJ
+        JJt9M5PABoETMAPWwBF4tLbzypjPdwQsgBNQf7Cxpe+9BZQSvgIHoABucl/63ktAJKELEAqbA2fhcbfd
+        hFIJ7Hv4TnjquQUyCWQ9PAGq1onngwOD+nkA2AJ3KY+1dXIbsG/ycKwrG/CXX/lPBib/xHzCM26eIjGM
+        nwAJ+tIAAAAASUVORK5CYII=
 </value>
   </data>
   <data name="ARLockCheck.CheckedImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
-        dQAAAHUB48IHZQAAAKpJREFUOE/tkasOwkAQRcFVg+iXEL4IZAOGFMNv8DmgwYAmeNBAilvOzN60KQ/R
-        1nKSI/bemTHbeyeEkOAc9/iQO5xhorHvMJDiEX9xwFTjdSj6uLUpccG1vFogNlqpQzGOvXPCgSrrhni2
-        QoxUVRBOY+esFJdYFitnoriCMIudkykusSxWzkff/gCPJd49bobt5Hbg6c92FHagE/8D8UDnX8jx5s9m
-        sBMWLz1UI+w7hoMaAAAAAElFTkSuQmCC
+        cQAAAHEBHD+AdwAAAJpJREFUOE/t0TEOAVEURmE6NYWViBVRCo3QzDYsh5qGWvTUCN0njynuvBBE6ySv
+        mXP+20ytloEGRljhXL4lhsnlfQW0sfGadWry3R3UsQjxHrPyHcL3eb69g26ItmgG18Iu+E51/Yj6ISie
+        +CL4Xu5TMAjB4Fv/NnjpMcUpyE9Jm0k6cM3NF1zSgZ/4H3gc+PkvTHDMzQekzfgGPVQj7D1tb7cAAAAA
+        SUVORK5CYII=
 </value>
   </data>
   <data name="ARLockCheck.UncheckedImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
-        dAAAAHQBMYXlgQAAAK5JREFUOE/dkT0KwkAUhC3S+HMCLXOEFFGMaK93SCdW2mijKbz55nswZFfd4BI7
-        Bz4IM/MGkoze5ZzLYAVHeAh7XkKmWlwUpnCCZw+WzVT/FGEdlK9wgD3c5Bm16q8imAelC0wUWTaGszJj
-        ocgLswgKO9md8LZBXsj2wiyDQim7E14Ojchle9kR9A581eAByhu4B8ep2E1lA/ZOsUIKjQ3EgmT+ZODn
-        j1jBwN/o1i0iMYyfvEScWwAAAABJRU5ErkJggg==
+        cAAAAHABznhikwAAAKNJREFUOE/dkTEOgkAURClsRE8AJUegQCNGe7wDnbHSRhul4ObPfCFm+MGA0jnJ
+        JJt9M5PABoETMAPWwBF4tLbzypjPdwQsgBNQf7Cxpe+9BZQSvgIHoABucl/63ktAJKELEAqbA2fhcbfd
+        hFIJ7Hv4TnjquQUyCWQ9PAGq1onngwOD+nkA2AJ3KY+1dXIbsG/ycKwrG/CXX/lPBib/xHzCM26eIjGM
+        nwAJ+tIAAAAASUVORK5CYII=
 </value>
   </data>
   <data name="CSLockCheck.CheckedImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
-        dQAAAHUB48IHZQAAAKpJREFUOE/tkasOwkAQRcFVg+iXEL4IZAOGFMNv8DmgwYAmeNBAilvOzN60KQ/R
-        1nKSI/bemTHbeyeEkOAc9/iQO5xhorHvMJDiEX9xwFTjdSj6uLUpccG1vFogNlqpQzGOvXPCgSrrhni2
-        QoxUVRBOY+esFJdYFitnoriCMIudkykusSxWzkff/gCPJd49bobt5Hbg6c92FHagE/8D8UDnX8jx5s9m
-        sBMWLz1UI+w7hoMaAAAAAElFTkSuQmCC
+        cQAAAHEBHD+AdwAAAJpJREFUOE/t0TEOAVEURmE6NYWViBVRCo3QzDYsh5qGWvTUCN0njynuvBBE6ySv
+        mXP+20ytloEGRljhXL4lhsnlfQW0sfGadWry3R3UsQjxHrPyHcL3eb69g26ItmgG18Iu+E51/Yj6ISie
+        +CL4Xu5TMAjB4Fv/NnjpMcUpyE9Jm0k6cM3NF1zSgZ/4H3gc+PkvTHDMzQekzfgGPVQj7D1tb7cAAAAA
+        SUVORK5CYII=
 </value>
   </data>
   <data name="CSLockCheck.UncheckedImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
-        dAAAAHQBMYXlgQAAAK5JREFUOE/dkT0KwkAUhC3S+HMCLXOEFFGMaK93SCdW2mijKbz55nswZFfd4BI7
-        Bz4IM/MGkoze5ZzLYAVHeAh7XkKmWlwUpnCCZw+WzVT/FGEdlK9wgD3c5Bm16q8imAelC0wUWTaGszJj
-        ocgLswgKO9md8LZBXsj2wiyDQim7E14Ojchle9kR9A581eAByhu4B8ep2E1lA/ZOsUIKjQ3EgmT+ZODn
-        j1jBwN/o1i0iMYyfvEScWwAAAABJRU5ErkJggg==
+        cAAAAHABznhikwAAAKNJREFUOE/dkTEOgkAURClsRE8AJUegQCNGe7wDnbHSRhul4ObPfCFm+MGA0jnJ
+        JJt9M5PABoETMAPWwBF4tLbzypjPdwQsgBNQf7Cxpe+9BZQSvgIHoABucl/63ktAJKELEAqbA2fhcbfd
+        hFIJ7Hv4TnjquQUyCWQ9PAGq1onngwOD+nkA2AJ3KY+1dXIbsG/ycKwrG/CXX/lPBib/xHzCM26eIjGM
+        nwAJ+tIAAAAASUVORK5CYII=
 </value>
   </data>
   <data name="HPLockCheck.CheckedImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
-        dQAAAHUB48IHZQAAAKpJREFUOE/tkasOwkAQRcFVg+iXEL4IZAOGFMNv8DmgwYAmeNBAilvOzN60KQ/R
-        1nKSI/bemTHbeyeEkOAc9/iQO5xhorHvMJDiEX9xwFTjdSj6uLUpccG1vFogNlqpQzGOvXPCgSrrhni2
-        QoxUVRBOY+esFJdYFitnoriCMIudkykusSxWzkff/gCPJd49bobt5Hbg6c92FHagE/8D8UDnX8jx5s9m
-        sBMWLz1UI+w7hoMaAAAAAElFTkSuQmCC
+        cQAAAHEBHD+AdwAAAJpJREFUOE/t0TEOAVEURmE6NYWViBVRCo3QzDYsh5qGWvTUCN0njynuvBBE6ySv
+        mXP+20ytloEGRljhXL4lhsnlfQW0sfGadWry3R3UsQjxHrPyHcL3eb69g26ItmgG18Iu+E51/Yj6ISie
+        +CL4Xu5TMAjB4Fv/NnjpMcUpyE9Jm0k6cM3NF1zSgZ/4H3gc+PkvTHDMzQekzfgGPVQj7D1tb7cAAAAA
+        SUVORK5CYII=
 </value>
   </data>
   <data name="HPLockCheck.UncheckedImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
-        dAAAAHQBMYXlgQAAAK5JREFUOE/dkT0KwkAUhC3S+HMCLXOEFFGMaK93SCdW2mijKbz55nswZFfd4BI7
-        Bz4IM/MGkoze5ZzLYAVHeAh7XkKmWlwUpnCCZw+WzVT/FGEdlK9wgD3c5Bm16q8imAelC0wUWTaGszJj
-        ocgLswgKO9md8LZBXsj2wiyDQim7E14Ojchle9kR9A581eAByhu4B8ep2E1lA/ZOsUIKjQ3EgmT+ZODn
-        j1jBwN/o1i0iMYyfvEScWwAAAABJRU5ErkJggg==
+        cAAAAHABznhikwAAAKNJREFUOE/dkTEOgkAURClsRE8AJUegQCNGe7wDnbHSRhul4ObPfCFm+MGA0jnJ
+        JJt9M5PABoETMAPWwBF4tLbzypjPdwQsgBNQf7Cxpe+9BZQSvgIHoABucl/63ktAJKELEAqbA2fhcbfd
+        hFIJ7Hv4TnjquQUyCWQ9PAGq1onngwOD+nkA2AJ3KY+1dXIbsG/ycKwrG/CXX/lPBib/xHzCM26eIjGM
+        nwAJ+tIAAAAASUVORK5CYII=
 </value>
   </data>
   <metadata name="OsuRunningTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">

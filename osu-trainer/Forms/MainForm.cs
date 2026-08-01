@@ -181,7 +181,7 @@ namespace osu_trainer
 
         private void UpdateRateInputControls(object sender, EventArgs e)
         {
-            BpmMultiplierTextBox.Text = editor.BpmRate.ToString("0.00");
+            BpmMultiplierTextBox.Text = editor.BpmRate.ToString("0.###");
         }
 
         private void UpdateSongDisplay(object sender, EventArgs e)
@@ -294,8 +294,8 @@ namespace osu_trainer
                         (newbpm, newmin, newmax) = (oldbpm, oldmin, oldmax);
 
                     // bpm textboxes
-                    OriginalBpmTextBox.Text = System.Math.Round(oldbpm).ToString("0");
-                    NewBpmTextBox.Text = System.Math.Round(newbpm).ToString("0");
+                    OriginalBpmTextBox.Text = oldbpm.ToString("0.###");
+                    NewBpmTextBox.Text = newbpm.ToString("0.###");
                     if (newbpm > oldbpm + 0.001M)
                         NewBpmTextBox.ForeColor = Colors.AccentRed;
                     else if (newbpm < oldbpm - 0.001M)
@@ -304,8 +304,8 @@ namespace osu_trainer
                         NewBpmTextBox.ForeColor = Colors.TextBoxFg;
 
                     // bpm range
-                    OriginalBpmRangeTextBox.Text = $"({System.Math.Round(oldmin).ToString("0")} - {System.Math.Round(oldmax).ToString("0")})";
-                    NewBpmRangeTextBox.Text = $"({System.Math.Round(newmin).ToString("0")} - {System.Math.Round(newmax).ToString("0")})";
+                    OriginalBpmRangeTextBox.Text = $"({oldmin:0.###} - {oldmax:0.###})";
+                    NewBpmRangeTextBox.Text = $"({newmin:0.###} - {newmax:0.###})";
                     OriginalBpmRangeTextBox.Visible = (oldmin != oldmax);
                     NewBpmRangeTextBox.Visible = (oldmin != oldmax);
 
@@ -352,7 +352,7 @@ namespace osu_trainer
                 {
                     string key = line.Split(':')[0].Trim().ToLower();
                     string value = line.Split(':')[1].Trim().ToLower();
-                    if (key == "check for updates" && new string[]{"no", "false"}.Contains(value))
+                    if (key == "check for updates" && new[]{"no", "false"}.Contains(value))
                         return false;
                 }
             }
@@ -603,14 +603,15 @@ namespace osu_trainer
             if (Decimal.TryParse(BpmMultiplierTextBox.Text, out mult))
                 editor.SetBpmMultiplier(mult);
             else
-                BpmMultiplierTextBox.Text = editor.BpmRate.ToString("0.00");
+                BpmMultiplierTextBox.Text = editor.BpmRate.ToString("0.###");
         }
 
         private void NewBpmTextBox_Submit()
         {
-            int bpm;
-            if (int.TryParse(NewBpmTextBox.Text, out bpm))
+            if (Decimal.TryParse(NewBpmTextBox.Text, out decimal bpm))
                 editor.SetBpm(bpm);
+            else
+                NewBpmTextBox.Text = editor.GetNewBpmData().Item1.ToString("0.###");
         }
 
         private void NewBpmTextBox_KeyDown(object sender, KeyEventArgs e)

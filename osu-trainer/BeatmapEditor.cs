@@ -43,7 +43,7 @@ namespace osu_trainer
         private decimal lockedCS = 0M;
         private decimal lockedAR = 0M;
         private decimal lockedOD = 0M;
-        private int lockedBpm = 200;
+        private decimal lockedBpm = 200M;
 
         private class ConcurrentRequest
         {
@@ -639,7 +639,7 @@ namespace osu_trainer
             BpmIsLocked = !BpmIsLocked;
             if (BpmIsLocked && NewBeatmap != null)
             {
-                lockedBpm = (int)NewBeatmap.Bpm;
+                lockedBpm = NewBeatmap.Bpm;
                 BeatmapModified?.Invoke(this, EventArgs.Empty);
             }
             ControlsModified?.Invoke(this, EventArgs.Empty);
@@ -665,13 +665,13 @@ namespace osu_trainer
         {
             if (BpmIsLocked)
             {
-                int bpm = (int)(OriginalBeatmap.Bpm * multiplier);
+                decimal bpm = OriginalBeatmap.Bpm * multiplier;
                 lockedBpm = bpm;
             }
             ApplyBpmMultiplier(multiplier);
         }
 
-        public void SetBpm(int bpm)
+        public void SetBpm(decimal bpm)
         {
             if (BpmIsLocked)
                 lockedBpm = bpm;
@@ -824,18 +824,16 @@ namespace osu_trainer
             // Difficulty Name and AudioFilename
             if (preDT)
             {
-                string bpm = map.Bpm.ToString("0");
-                map.Version += $" {multiplier:0.##}x ({bpm}bpm)";
-                map.AudioFilename = $"{Path.GetFileNameWithoutExtension(map.AudioFilename)} {multiplier:0.000}x withDT";
+                map.Version += $" {multiplier:0.###}x ({map.Bpm:0.###}bpm)";
+                map.AudioFilename = $"{Path.GetFileNameWithoutExtension(map.AudioFilename)} {multiplier:0.###}x withDT";
                 if (changePitch && Math.Abs(multiplier - 1M) > 0.001M)
                     map.AudioFilename += $" (pitch {(multiplier < 1 ? "lowered" : "raised")})";
                 map.AudioFilename += ".mp3";
             }
             else if (Math.Abs(multiplier - 1M) > 0.001M)
             {
-                string bpm = map.Bpm.ToString("0");
-                map.Version += $" {multiplier:0.##}x ({bpm}bpm)";
-                map.AudioFilename = $"{Path.GetFileNameWithoutExtension(map.AudioFilename)} {multiplier:0.000}x";
+                map.Version += $" {multiplier:0.###}x ({map.Bpm:0.###}bpm)";
+                map.AudioFilename = $"{Path.GetFileNameWithoutExtension(map.AudioFilename)} {multiplier:0.###}x";
                 if (changePitch)
                     map.AudioFilename += $" (pitch {(multiplier < 1 ? "lowered" : "raised")})";
                 map.AudioFilename += ".mp3";
@@ -966,7 +964,7 @@ namespace osu_trainer
                     UserProfiles[i].ChangePitch = lines[offset + 12] == "True";
                     UserProfiles[i].NoSpinners = lines[offset + 13] == "True";
                     UserProfiles[i].BpmIsLocked = lines[offset + 14] == "True";
-                    UserProfiles[i].lockedBpm = int.Parse(lines[offset + 15]);
+                    UserProfiles[i].lockedBpm = decimal.Parse(lines[offset + 15]);
                     UserProfiles[i].BpmMultiplier = decimal.Parse(lines[offset + 16]);
                 }
             }

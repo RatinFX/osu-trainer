@@ -44,7 +44,7 @@
     <Setting Name="BpmLockedState" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">False</Value>
     </Setting>
-    <Setting Name="LockedBpmSetting" Type="System.Int32" Scope="User">
+    <Setting Name="LockedBpmSetting" Type="System.Decimal" Scope="User">
       <Value Profile="(Default)">200</Value>
     </Setting>
     <Setting Name="HotkeyCreateMap" Type="System.Windows.Forms.Keys" Scope="User">

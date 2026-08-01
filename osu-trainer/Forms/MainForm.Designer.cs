@@ -303,7 +303,7 @@ namespace osu_trainer
             // BpmLockCheck
             // 
             this.BpmLockCheck.CheckedImage = ((System.Drawing.Image)(resources.GetObject("BpmLockCheck.CheckedImage")));
-            this.BpmLockCheck.Location = new System.Drawing.Point(136, 62);
+            this.BpmLockCheck.Location = new System.Drawing.Point(148, 63);
             this.BpmLockCheck.Name = "BpmLockCheck";
             this.BpmLockCheck.Size = new System.Drawing.Size(21, 21);
             this.BpmLockCheck.TabIndex = 11;
@@ -319,8 +319,8 @@ namespace osu_trainer
             1,
             0,
             0,
-            131072});
-            this.BpmSlider.Location = new System.Drawing.Point(136, 2);
+            196608});
+            this.BpmSlider.Location = new System.Drawing.Point(138, 2);
             this.BpmSlider.MaxValue = new decimal(new int[] {
             2,
             0,
@@ -393,7 +393,7 @@ namespace osu_trainer
             this.BpmMultiplierTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.BpmMultiplierTextBox.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BpmMultiplierTextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.BpmMultiplierTextBox.Location = new System.Drawing.Point(90, 5);
+            this.BpmMultiplierTextBox.Location = new System.Drawing.Point(92, 5);
             this.BpmMultiplierTextBox.Margin = new System.Windows.Forms.Padding(3, 5, 3, 3);
             this.BpmMultiplierTextBox.Name = "BpmMultiplierTextBox";
             this.BpmMultiplierTextBox.Size = new System.Drawing.Size(42, 20);
@@ -408,10 +408,10 @@ namespace osu_trainer
             this.NewBpmTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(16)))), ((int)(((byte)(25)))));
             this.NewBpmTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.NewBpmTextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.NewBpmTextBox.Location = new System.Drawing.Point(89, 64);
+            this.NewBpmTextBox.Location = new System.Drawing.Point(91, 64);
             this.NewBpmTextBox.Margin = new System.Windows.Forms.Padding(3, 5, 3, 3);
             this.NewBpmTextBox.Name = "NewBpmTextBox";
-            this.NewBpmTextBox.Size = new System.Drawing.Size(42, 18);
+            this.NewBpmTextBox.Size = new System.Drawing.Size(56, 18);
             this.NewBpmTextBox.TabIndex = 10;
             this.NewBpmTextBox.Text = "200";
             this.NewBpmTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -425,7 +425,7 @@ namespace osu_trainer
             this.NewBpmRangeTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.NewBpmRangeTextBox.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NewBpmRangeTextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(90)))), ((int)(((byte)(134)))));
-            this.NewBpmRangeTextBox.Location = new System.Drawing.Point(163, 64);
+            this.NewBpmRangeTextBox.Location = new System.Drawing.Point(175, 65);
             this.NewBpmRangeTextBox.Margin = new System.Windows.Forms.Padding(3, 5, 3, 3);
             this.NewBpmRangeTextBox.Name = "NewBpmRangeTextBox";
             this.NewBpmRangeTextBox.ReadOnly = true;
@@ -439,7 +439,7 @@ namespace osu_trainer
             this.OriginalBpmRangeTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.OriginalBpmRangeTextBox.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.OriginalBpmRangeTextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(90)))), ((int)(((byte)(134)))));
-            this.OriginalBpmRangeTextBox.Location = new System.Drawing.Point(163, 35);
+            this.OriginalBpmRangeTextBox.Location = new System.Drawing.Point(175, 36);
             this.OriginalBpmRangeTextBox.Margin = new System.Windows.Forms.Padding(3, 5, 3, 3);
             this.OriginalBpmRangeTextBox.Name = "OriginalBpmRangeTextBox";
             this.OriginalBpmRangeTextBox.ReadOnly = true;
@@ -453,11 +453,11 @@ namespace osu_trainer
             this.OriginalBpmTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.OriginalBpmTextBox.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.OriginalBpmTextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.OriginalBpmTextBox.Location = new System.Drawing.Point(89, 35);
+            this.OriginalBpmTextBox.Location = new System.Drawing.Point(91, 35);
             this.OriginalBpmTextBox.Margin = new System.Windows.Forms.Padding(3, 5, 3, 3);
             this.OriginalBpmTextBox.Name = "OriginalBpmTextBox";
             this.OriginalBpmTextBox.ReadOnly = true;
-            this.OriginalBpmTextBox.Size = new System.Drawing.Size(42, 18);
+            this.OriginalBpmTextBox.Size = new System.Drawing.Size(56, 18);
             this.OriginalBpmTextBox.TabIndex = 10;
             this.OriginalBpmTextBox.Text = "200";
             this.OriginalBpmTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
