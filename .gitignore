@@ -27,6 +27,17 @@ bld/
 # Visual Studo 2015 cache/options directory
 .vs/
 
+# Visual Studio cache and index files
+# *.dtbcache.v2
+# *.futdcache.v2
+*.vsidx
+*.suo
+
+# VS Code local settings
+.vscode/*
+!.vscode/launch.json
+!.vscode/tasks.json
+
 # MSTest test Results
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
@@ -195,6 +206,3 @@ FakesAssemblies/
 
 # Visual Studio 6 workspace options file
 *.opt
-
-# git
-*.diff
