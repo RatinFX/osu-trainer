@@ -28,8 +28,8 @@ bld/
 .vs/
 
 # Visual Studio cache and index files
-# *.dtbcache.v2
-# *.futdcache.v2
+*.dtbcache.v2
+*.futdcache.v2
 *.vsidx
 *.suo
 
